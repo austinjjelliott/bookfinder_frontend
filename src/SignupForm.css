@@ -1,0 +1,15 @@
+.SignupForm-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.SignupForm {
+  background-color: #d9dbc3; /* muted sage */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}

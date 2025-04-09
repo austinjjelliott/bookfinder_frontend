@@ -1,0 +1,27 @@
+.favorite-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.favorite-card {
+  background-color: #d9dbc3; /* muted sage */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.bookTitle {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}

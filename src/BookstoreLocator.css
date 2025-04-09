@@ -1,0 +1,35 @@
+.form {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 10px;
+  width: 50rem;
+  border-radius: 8px;
+}
+
+.btn {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #7ca982;
+  color: white;
+  cursor: pointer;
+}
+
+.results-display {
+  border: 2px solid black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    to right,
+    #f9f1d3,
+    #e4d6b8
+  ); /* similar but not identical */
+
+  background-repeat: repeat;
+  background-size: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+}

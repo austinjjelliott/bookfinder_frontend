@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background: linear-gradient(to right, #f3eac2, #d8c9a3);
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  height: 100%;
+  flex-direction: column;
+}
+.header {
+  background-image: url("https://img.freepik.com/free-vector/realistic-open-parchment-scroll-transparent_107791-19331.jpg?t=st=1743786895~exp=1743790495~hmac=5439f198e212c4bff8aea69f869c9a8cc7522597f52c750cbf92cebf003c2f22&w=2000");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 35px;
+  display: flex;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 6rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.bookfinder-form {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 10px;
+  width: 50rem;
+  border-radius: 8px;
+}
+
+.bookfinder-btn {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #7ca982;
+  color: white;
+  cursor: pointer;
+}
+
+.bookcard-display {
+  border: 2px solid black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    to right,
+    #f9f1d3,
+    #e4d6b8
+  ); /* similar but not identical */
+
+  background-repeat: repeat;
+  background-size: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
