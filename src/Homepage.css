@@ -19,7 +19,7 @@ body {
   flex-direction: column;
 }
 .header {
-  background-image: url("https://img.freepik.com/free-vector/realistic-open-parchment-scroll-transparent_107791-19331.jpg?t=st=1743786895~exp=1743790495~hmac=5439f198e212c4bff8aea69f869c9a8cc7522597f52c750cbf92cebf003c2f22&w=2000");
+  background: linear-gradient(45deg, #f4e1c1, #d8b38c, #c4a17a);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
