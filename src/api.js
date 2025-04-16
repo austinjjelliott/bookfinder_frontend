@@ -1,11 +1,10 @@
 import axios from "axios";
 
 const BASE_URL = "https://bookfinder-backend.onrender.com";
-// const BASE_URL = "http://localhost:3001";
-
 const GOOGLE_BOOKS_API_URL = "https://www.googleapis.com/books/v1/volumes";
 const MAPQUEST_API_URL = "https://www.mapquestapi.com/search/v2/radius";
-const MAPQUEST_API_KEY = "vIzRjqvib9fNtg4U067gRG0MuLSlfhsU";
+const MAPQUEST_API_KEY = process.env.REACT_APP_MAPQUEST_API_KEY;
+// const MAPQUEST_API_KEY = "vIzRjqvib9fNtg4U067gRG0MuLSlfhsU";
 
 class BooklyAPI {
   static token;
