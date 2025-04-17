@@ -70,7 +70,7 @@ class BooklyAPI {
 
   static async updateFavorites(username, favorites) {
     const response = await fetch(
-      `http://localhost:3001/users/${username}/favorites`,
+      `https://bookfinder-frontend.onrender.com/${username}/favorites`,
       {
         method: "PATCH",
         headers: {
